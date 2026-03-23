@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>About - Krono's Cards</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0f172a;
+  color: white;
+}
+
+header, footer {
+  background: #020617;
+  text-align: center;
+  padding: 20px;
+}
+
+nav {
+  background: #1e293b;
+  text-align: center;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.section {
+  padding: 40px;
+  max-width: 800px;
+  margin: auto;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Krono's Cards</h1>
+</header>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="shop.html">Shop</a>
+</nav>
+
+<div class="section">
+  <h2>About Us</h2>
+  <p>Krono's Cards is built for Pokemon collectors and fans. We focus on providing quality cards, rare finds, and a place where collectors can grow their collection.</p>
+
+  <p>Whether you're new or experienced, we aim to make collecting fun and easy.</p>
+</div>
+
+<footer>
+  <p>© 2026 Krono's Cards</p>
+</footer>
+
+</body>
+</html>
