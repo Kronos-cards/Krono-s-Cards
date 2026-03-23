@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Shop - Krono's Cards</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0f172a;
+  color: white;
+}
+
+header, footer {
+  background: #020617;
+  text-align: center;
+  padding: 20px;
+}
+
+nav {
+  background: #1e293b;
+  text-align: center;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 40px;
+}
+
+.card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+button {
+  background: #38bdf8;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Krono's Cards Shop</h1>
+</header>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="shop.html">Shop</a>
+</nav>
+
+<div class="products">
+
+  <!-- SAMPLE ITEM (duplicate this to add more) -->
+  <div class="card">
+    <h3>Pikachu Card</h3>
+    <p>$10</p>
+    <button>Buy</button>
+  </div>
+
+  <div class="card">
+    <h3>Charizard Card</h3>
+    <p>$50</p>
+    <button>Buy</button>
+  </div>
+
+</div>
+
+<footer>
+  <p>© 2026 Krono's Cards</p>
+</footer>
+
+</body>
+</html>
