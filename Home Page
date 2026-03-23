@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Krono's Cards - Home</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0f172a;
+  color: white;
+}
+
+header {
+  background: #020617;
+  text-align: center;
+  padding: 20px;
+}
+
+nav {
+  background: #1e293b;
+  text-align: center;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #38bdf8;
+}
+
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+button {
+  padding: 12px 20px;
+  background: #38bdf8;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #020617;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Krono's Cards</h1>
+  <p>Pokemon Cards • Collect • Trade • Sell</p>
+</header>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="shop.html">Shop</a>
+</nav>
+
+<div class="hero">
+  <h2>Welcome to Krono's Cards</h2>
+  <p>Your place for Pokemon cards and collectibles</p>
+  <a href="shop.html"><button>Shop Now</button></a>
+</div>
+
+<footer>
+  <p>© 2026 Krono's Cards</p>
+</footer>
+
+</body>
+</html>
